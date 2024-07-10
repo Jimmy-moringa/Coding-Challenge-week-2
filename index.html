@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to css -->
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center>
+    <h1 id="gold">SHOE HUB</h1>
+    </center>
+    <img id="image" src="image.png" alt="">
+<center>
+    <section>
+<form action=""> 
+   <label for="">type of shoe</label> <input type="text"   placeholder="item" id="firstin"> <label for="">Quantity</label><input type="number" placeholder="Quantity" id="secondin"> <label for="">size</label><input type="number" placeholder="Size" id="thirdin"><label for="">Color</label><input type="color"  placeholder="Color" id="fourthin"><label for="">Date of delivery</label><input type="datetime-local"  placeholder="item" id="fifthin">
+
+</form>
+
+<form action="">
+    <label for="">Email address</label>
+    <input type="email" placeholder="input your email" inputmode="email">
+</form>
+<form action="">
+    <label for="">Phone Number</label>
+    <input type="number" placeholder="07"  maxlength="8">
+</form>
+<form action="/submit-gender" method="post">
+    <label for="gender">Select your gender:</label><br><br>
+    <input type="radio" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio"  name="gender" value="female">
+    <label for="female">Female</label><br><br>
+   
+</form>
+<form action="/payment-option" method="post">
+    <label for="payment-option">How will you pay:</label><br><br>
+    <input type="radio">
+    <label for="M-Pesa" name="payment-option">M-Pesa</label><br>
+    <input type="radio">
+    <label for="Cash" name="payment-option">Cash</label><br><br>
+   
+</form>
+<button onclick="takeInput()"> Place Oder</button>
+
+
+ <div id="Output"></div>
+ 
+    <table id="first" >
+        <tr id="top">
+            <td >Item</td>
+            <td  id="first">Quantity</td>
+            <td  id="first">Size</td>
+            <td  id="first">Color</td>
+            <td  id="first">Date of delivary</td>
+        </tr> 
+
+<div>
+        <tr >
+        <td id="firstout"></td>
+        <td id="secondout"></td>
+        <td id="thirdout"></td>
+        <td id="fourthout"></td>
+        <td id="fifthout"></td> 
+        <button  id="pay" onclick="enterPin()">Make Payments</button>
+        </tr>
+        
+        <tr>
+
+
+            
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="one" >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tr>
+        
+    </table>
+ 
+    </section>
+
+</center>
+<!-- link to javascript -->
+ <script src="index.js"></script>
+</body>
+</html>
